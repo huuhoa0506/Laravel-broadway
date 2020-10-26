@@ -1,5 +1,5 @@
 {
-  "name": "huuhoa0506/laravelbroadway",
+  "name": "nwidart/laravel-broadway",
   "description": "A Laravel adapter for the Broadway ES/CQRS package.",
   "license": "MIT",
   "keywords": [
@@ -18,10 +18,11 @@
     }
   ],
   "require": {
-    "php": ">=5.5.9",
+    "php": ">=7.3",
     "doctrine/dbal": "~2.5",
-    "broadway/broadway": "2.0.2",
-    "broadway/event-store-dbal": "^0.1.2"
+    "broadway/broadway": "~2.0.0",
+    "broadway/event-store-dbal": "^0.1.2",
+    "illuminate/support": "5.7.*|5.8.*|6.*|7.*|8.*"
   },
   "require-dev": {
     "phpunit/phpunit": "4.0"
